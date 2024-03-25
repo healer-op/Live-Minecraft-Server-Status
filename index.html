@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Live Minecraft Status</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://github.hubspot.com/odometer/themes/odometer-theme-default.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <h1>Live Minecraft Status</h1>
+  <input type="text" id="server_ip" placeholder="hypixel.net" value="hypixel.net" onchange="healer()" name="fname"><br><br>
+  <img id="server_img">
+  <p id="diff"></p>
+</header>
+
+<main id="main">
+  <p class="odometer" id="odometer">0</p>
+  <p id="odOnline" style="display:none">0</p>
+</main>
+<!-- partial -->
+  <script src='https://github.hubspot.com/odometer/odometer.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
